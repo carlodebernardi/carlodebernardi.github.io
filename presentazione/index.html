@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Cellular Automata - Linee guida per uno studio bibliometrico</title>
+
+		<meta name="author" content="Carlo Debernardi">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- <link rel="stylesheet" href="css/theme/black.css" id="theme"> -->
+		<link rel="stylesheet" href="css/theme/serif.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		
+		<style>
+			.reveal i {font-style:italic}
+			.reveal b {font-weight:bold}
+			.reveal h2 {font-size:1.2em; text-transform:none; text-decoration:underline}
+			.reveal h3 {font-size:1.2em; text-transform:none}
+			.reveal h1 {font-size:1.5em}
+			.reveal li {padding-top:15px}			
+			.reveal section img{
+				max-width: 80%;
+			}
+		
+		</style>
+		
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Cellular Automata</h1>
+					<h3>Linee guida per uno studio bibliometrico</h3>
+					<br><br>
+					<p style="font-size:15px">Carlo Debernardi</p>
+				</section>
+
+				<section>
+					<h2>Oggetto della ricerca: automi cellulari</h2>
+					<ul>
+						<li class="fragment">sistemi dinamici discreti</li>
+						<li class="fragment">ideati da von Neumann (fine anni '40)</li>
+						<li class="fragment">diffusione multidisciplinare</li>
+						<li class="fragment">utilizzati per simulazioni computazionali</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Framework teorico: comunità di ricerca</h2>
+					<ul>
+						<li class="fragment">storia e sociologia della scienza</li>
+						<li class="fragment">terminologia dai confini sfumati (<i>research specialty, invisible college,</i> ...)</li>
+					</ul>
+					<span  class="fragment">
+						<p style="font-size:0.7em"><i>" [...] a research specialty is a <b>self-organized network of researchers</b> who tend to study the same <b>research topics</b>, attend the same <b>conferences</b>, read and <b>cite</b> each other’s research papers and publish in the same <b>research journals</b>"</i></p>
+						<p style="font-size:0.7em; text-align:right">Morris e Veer Martens (2009)</p>
+					</span>
+				</section>
+				
+				<section>
+					<h2>Tecniche e metodi: bibliometria</h2>
+					<ul>
+						<li class="fragment">citazioni come "moneta corrente"</li>
+						<li class="fragment">tracciamento della comunicazione formale (pubblicazioni)</li>
+						<li class="fragment">a partire da Garfield (metà anni '50)</li>
+						<li class="fragment">database bibliometrici (es. Web of Science)</li>
+						<li class="fragment">limiti e ambito di applicazione</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Utilità della bibliometria <i>descrittiva</i></h2>
+					<ul>
+						<li class="fragment">fotografia dello stato dell'arte di un ambito di ricerca</li>
+						<li class="fragment">individuazione di pubblicazioni particolarmente rilevanti</li>
+						<li class="fragment">analisi della rete sociale di persone ed istituzioni</li>
+						<li class="fragment">approfondimento storico ed eredità contemporanea</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>"Citazioni"</h2>
+					<ul>
+						<li class="fragment"><b>citing paper</b> <span class="fragment">(presenti nel database considerato, informazioni disponibili)</span></li>
+						<li class="fragment"><b>cited reference</b> <span class="fragment">(poche informazioni disponibili, non abbiamo dati citazionali)</span></li>
+						<li class="fragment"><b>quotation</b> <span class="fragment">(citazioni testuali, non considerate in quest'analisi)</span></li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Relazioni citazionali</h2>
+					<ul>
+						<li class="fragment"><b>citation network</b> <span class="fragment">(dati incompleti, matrice sparsa)</span></li>
+						<li class="fragment"><b>bibliographic coupling</b> <br><span class="fragment">(statico, basta bibliografia, citing papers)</span></li>
+						<li class="fragment"><b>co-citation</b> <br><span class="fragment">(dinamica, dipende dal database, cited references)</span></li>
+						<li class="fragment">altre relazioni di co-occorrenza (co-authorship, author co-citation, ecc)</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Citing paper vs cited reference</h2>
+					<img src="graphs/cp_cr.png" />
+				</section>
+				
+				<section>
+					<h2>Relazioni citazionali</h2>
+					<img src="graphs/bib_rel.png" /><br>
+					<span style="font-size:20px"><b style="color:red">cited references (co-citation)</b> ← <b style="color:gray">citations</b> ← <b style="color:green">citing papers (bibliographic coupling)</b></span>
+				</section>
+				
+				<section>
+					<h2>Query al database</h2>
+					<div class="fragment" style="box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size:0.8em; text-align: center; max-width:60%; margin-left:20%;">
+						"cellular automat*" <br> "automata theory" <br> "tessellation automat*" <br> "tessellation structure" <br> "iterative array"
+					</div>
+					<p class="fragment">Circa 2.000 <i>citing papers</i> nel periodo 1985-1995, <br>circa 40.000 riferimenti bibliografici</p>
+					<p class="fragment">Pulizia dei dati con <i>CRExplorer</i></p>
+				</section>
+				
+				<section>
+					<h2>Esempio di analisi</h2>
+					<ul>
+						<li class="fragment">costruzione della <b>matrice di adiacenza</b> <br><span class="fragment">(cp sulle righe, cr sulle colonne)</span></li>
+						<li class="fragment">passaggio alla matrice del <b>bibliographic coupling</b> <br><span class="fragment">(prodotto riga-per-colonna della matrice con sé stessa, rimangono solo i cp)</span></li>
+						<li class="fragment">algoritmo di <b>clustering</b> <br><span class="fragment">(massimizzazione della <b>modularità</b>)</span></li>
+						<li class="fragment">analisi della composizione dei cluster <br><span class="fragment">(lavoro umano importante per <b>interpretazione</b>, <i>work in progress</i>)</span></li>
+					</ul>
+				</section>
+				
+
+				<section data-background-iframe="graphs/network.html" data-background-interactive>	
+				</section>
+				
+				<section>
+					<h2>Visualizzare le relazioni <br>diacroniche tra i cluster</h2>
+					<img src="graphs/bc_sankey.png" />
+				</section>
+				
+				<section>
+					
+					<section>
+						<h2>Composizione disciplinare dei cluster <br>tramite etichette di <i>Web of Science</i></h2>
+					</section>
+					
+					<section data-background-iframe="graphs/SC_rev_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section data-background-iframe="graphs/SC_rev_comp_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section>
+						<h2>Somiglianza tra i cluster <br>sulla base del parametro SC</h2>
+						<img src="graphs/SC_cluster_correlation.png" />
+						<p  style="font-size:20px">Ottenuta tramite <i>cosine similarity</i></p>
+					</section>
+					
+					<section data-background-iframe="graphs/WC_rev_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section>
+						<h2>Somiglianza tra i cluster <br>sulla base del parametro WC</h2>
+						<img src="graphs/WC_cluster_correlation.png" />
+					</section>
+					
+				</section>
+				
+				<section>
+					<section>
+						<h2>Riviste di pubblicazione per cluster</h2>
+					</section>
+					
+					<section data-background-iframe="graphs/SO_rev_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section data-background-iframe="graphs/SO_rev_comp_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section>
+						<h2>Somiglianza tra i cluster <br>sulla base del parametro SO</h2>
+						<img src="graphs/SO_cluster_correlation.png" />
+					</section>
+				</section>
+				
+				<section>
+					
+					<section>
+						<h2>Letteratura ed autori <br>di riferimento per cluster</h2>
+					</section>
+					
+					<section data-background-iframe="graphs/CR_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section>
+						<h2>Somiglianza tra i cluster <br>sulla base del parametro CR</h2>
+						<img src="graphs/CR_cluster_correlation.png" />
+					</section>
+					
+					<!-- <section data-background-iframe="graphs/CR_AU_rev_barchart.html" data-background-interactive>	
+					</section> -->
+					
+					<section data-background-iframe="graphs/CR_AU_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section>
+						<h2>Somiglianza tra i cluster <br>sulla base del parametro CR_AU</h2>
+						<img src="graphs/CR_AU_cluster_correlation.png" />
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Analisi dei titoli per cluster</h2>
+					</section>
+					
+					<section data-background-iframe="graphs/TI_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section data-background-iframe="graphs/TI_bi_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section data-background-iframe="graphs/TI_tri_barchart.html" data-background-interactive>	
+					</section>
+					
+					<section>
+						<h2>Prossimamente:</h2>
+						<p>Analisi a grana più fine tramite <i>pointwise mutual information</i> per individuare i bigrammi più rilevanti</p>
+					</section>
+				</section>
+				
+				<section>
+					<h1>Grazie per l'attenzione</h1>
+					<br><br>
+					<p style="font-size:15px">Carlo Debernardi<br>carlo.debernardi.w@gmail.com</p>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
