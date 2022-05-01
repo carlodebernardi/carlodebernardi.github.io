@@ -1,29 +1,17 @@
 ---
 layout: page
-title: About
+title: 
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+I'm a PhD student in *Sociology* in a cotutelle agreement between the University of Milan, Italy ([NASP](https://www.nasp.eu/) programme) and the University of Agder, Norway. I have a background in philosophy of science and my main research interest right now is the choice of research topics and the factors -- social, institutional, etc. -- affecting it.
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+I'm very interested in the opportunities offered by the approaches of *Computational Social Sciences* and *Digital Humanities*. Right now I'm working with tecniques borrowed from Natural Language Processing (like Topic Modeling), Network Analysis and Agent-Based Modeling.
 
-## Features
+I got my MA in *Logic, Philosophy and History of Science* at the University of Florence with a dissertation about the history of cellular automata and a BA in *Philosophy* at the University of Turin with dissertation about peer-review in research assessment and it's limits.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+## Publications
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+An agent-based model on italian academic recruitment and epistemic pluralism:
+
+Debernardi, C., Priori, E., & Viola, M. (2020). Reclutamento accademico: come tutelare il pluralismo epistemico? Un modello di simulazione ad agenti. *Sistemi Intelligenti*. [https://doi.org/10.1422/97367](https://doi.org/10.1422/97367) [Preprint](https://www.researchgate.net/publication/341297994_Reclutamento_accademico_come_tutelare_il_pluralismo_epistemico_Un_modello_di_simulazione_ad_agenti_PREPRINT)
