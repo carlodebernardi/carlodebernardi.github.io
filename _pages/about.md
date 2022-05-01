@@ -8,7 +8,7 @@ I'm a PhD student in *Sociology* in a cotutelle agreement between the University
 
 I'm very interested in the opportunities offered by the approaches of *Computational Social Sciences* and *Digital Humanities*. Right now I'm working with tecniques borrowed from Natural Language Processing (like Topic Modeling), Network Analysis and Agent-Based Modeling.
 
-I got my MA in *Logic, Philosophy and History of Science* at the University of Florence with a dissertation about the history of cellular automata and a BA in *Philosophy* at the University of Turin with dissertation about peer-review in research assessment and it's limits.
+I got my MA in *Logic, Philosophy and History of Science* at the University of Florence with a dissertation about the history of cellular automata and a BA in *Philosophy* at the University of Turin with a dissertation about peer-review in research assessment and it's limits.
 
 ---
 
