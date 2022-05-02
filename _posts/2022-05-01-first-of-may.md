@@ -32,9 +32,15 @@ A girl with a hijab is speaking from the stage when I receive the second message
 
 ![Blood on the pavement in Turin][blood]
 
-When the member of parliament from the "Reds" finishes the last speech -- I guess they deliberately gave space to less known speakers first -- the gathering gradually dissolves. For a while I keep chatting both live and online. After a while we move behind the church, where the memorial for the victims of the Utøya attack is. A brief speech, some flowers. We recognize the first members of the Labor party, unfortunately quite similar to the italian Democrats. They tell me it's strange to notice them only now, they are usually more present at the First of May celebrations. In any case the victims of the attack were young members of the party, so it makes sense they are here. After the crown of flowers is placed near the memorial -- equal to many others in Norway -- the people leave in silence.
+When the member of parliament from the "Reds" finishes the last speech -- I guess they deliberately gave space to less known speakers first -- the gathering gradually dissolves. For a while I keep chatting both live and online. Some time later we move behind the church, where the memorial for the victims of the Utøya attack is. A brief speech, some flowers. We recognize the first members of the Labor party, unfortunately quite similar to the italian Democrats. They tell me it's strange to notice them only now, they are usually more present at the First of May celebrations. In any case the victims of the attack were young members of the party, so it makes sense they are here. After the crown of flowers is placed near the memorial -- equal to many others in Norway -- the people leave in silence.
 
 It's still a very nice sunny day and we stop to chat for a while in the square. Maybe we should have a coffee together.
+
+---
+
+### Other sparse notes
+
+Talking about news coverage, Italian speakers will be able to appreciate the irony of broadcasting images of protesters beaten up while describing them as a threat to public security. [Here](https://www.rainews.it/tgr/piemonte/video/2022/05/primo-maggio-corteo-scontri--ca8ec772-0027-44c6-ae7c-1d3752d8f078.html) and [here](https://www.rainews.it/tgr/piemonte/notiziari/video/2022/05/TGR-Piemonte-del-01052022-ore-1930-1cb5a4c2-8c34-4b5a-87cb-b3476c31cef1.html) (from min 3.10) some examples. Notice also the presence of a former fighter in the Resistence, condemning the police violence.
 
 [krs1]: https://carlodebernardi.github.io/assets/1may-krs1.jpg "Gathering in Kristiansand"
 [police]: https://carlodebernardi.github.io/assets/1may-police.jpg "Police in Turin"
