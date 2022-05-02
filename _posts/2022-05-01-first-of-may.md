@@ -42,6 +42,8 @@ It's still a very nice sunny day and we stop to chat for a while in the square. 
 
 Talking about news coverage, Italian speakers will be able to appreciate the irony of broadcasting images of protesters beaten up while describing them as a threat to public security. [Here](https://www.rainews.it/tgr/piemonte/video/2022/05/primo-maggio-corteo-scontri--ca8ec772-0027-44c6-ae7c-1d3752d8f078.html) and [here](https://www.rainews.it/tgr/piemonte/notiziari/video/2022/05/TGR-Piemonte-del-01052022-ore-1930-1cb5a4c2-8c34-4b5a-87cb-b3476c31cef1.html) (from min 3.10) some examples. Notice also the presence of a former fighter in the Resistence, condemning the police violence.
 
+Another detail that might be surprising to some people, is the fact that injured protesters are reluctant to go to an hospital to be treated unless strictly necessary. It's the most direct way to be identified, charged for resistence and put on trial.
+
 [krs1]: https://carlodebernardi.github.io/assets/1may-krs1.jpg "Gathering in Kristiansand"
 [police]: https://carlodebernardi.github.io/assets/1may-police.jpg "Police in Turin"
 [krs2]: https://carlodebernardi.github.io/assets/1may-krs2.jpg "March in Kristiansand"
