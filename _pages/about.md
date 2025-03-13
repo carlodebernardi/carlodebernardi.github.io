@@ -4,16 +4,22 @@ title:
 permalink: /about/
 ---
 
-I'm a PhD student in *Sociology* in a cotutelle agreement between the University of Milan, Italy ([NASP](https://www.nasp.eu/) programme) and the University of Agder, Norway. I have a background in philosophy of science and my main research interest right now is the choice of research topics and the factors -- social, institutional, etc. -- affecting it.
+I'm a computational social scientist working mainly in the areas of *Scientometrics* and *Science of Science*.
 
-I'm very interested in the opportunities offered by the approaches of *Computational Social Sciences* and *Digital Humanities*. Right now I'm working with tecniques borrowed from Natural Language Processing (like Topic Modeling), Network Analysis and Agent-Based Modeling.
+I'm a python enjoyer and I work a lot with NLP, topic modeling and *textual data* in general. But I'm also interested in *(social) network analysis* and *agent-based modeling*. Also, my favourite flavour of statistics is *Bayesian* (applied both via Stan and PyMC).
 
-I got my MA in *Logic, Philosophy and History of Science* at the University of Florence with a dissertation about the history of cellular automata and a BA in *Philosophy* at the University of Turin with a dissertation about peer-review in research assessment and it's limits.
+I got my PhD in Economic Sociology and Public Administration via a cotutelle agreement between the University of Milan (Italy) and the University of Agder (Norway), but my background -- both BA and MA -- is in Philosophy of Science (universities of Turin and Florence).
 
 ---
 
 ## Publications
 
- + An agent-based model on italian academic recruitment and epistemic pluralism:
+ + Seeber M., Cattaneo M., Debernardi C., Pina D. G. (2025). The effect of public funding on long-term relocation of experienced researchers: An analysis of the Marie Curie Career Integration Grant. *Quantitative Science Studies*. [https://doi.org/10.1162/qss_a_00350](https://doi.org/10.1162/qss_a_00350)
+
+ + Debernardi C. (2025). A Multilevel Exploration of Science Dynamics with Computational and Quantitative Techniques (Doctoral dissertation). University of Agder. [https://hdl.handle.net/11250/3173308](https://hdl.handle.net/11250/3173308)
+
+ + Debernardi C., Seeber M., Cattaneo M. (2024). Thirty years of climate change research: A fine-grained analysis of geographical specialization. *Environmental Science & Policy*. [https://doi.org/10.1016/j.envsci.2023.103663](https://doi.org/10.1016/j.envsci.2023.103663)
+
+ + Renzini F., Debernardi C., Bianchi F., Cremonini M. & Squazzoni F. (2023). The New Frontiers of Social Simulation in the Data Science Era: An Introduction to the Proceedings. *Advances in Social Simulation*. [https://doi.org/10.1007/978-3-031-34920-1_1](https://doi.org/10.1007/978-3-031-34920-1_1)
  
- Debernardi, C., Priori, E., & Viola, M. (2020). Reclutamento accademico: come tutelare il pluralismo epistemico? Un modello di simulazione ad agenti. *Sistemi Intelligenti*. [https://doi.org/10.1422/97367](https://doi.org/10.1422/97367) - [Preprint](https://www.researchgate.net/publication/341297994_Reclutamento_accademico_come_tutelare_il_pluralismo_epistemico_Un_modello_di_simulazione_ad_agenti_PREPRINT)
+ + Debernardi C., Priori E., & Viola M. (2020). Reclutamento accademico: come tutelare il pluralismo epistemico? Un modello di simulazione ad agenti. *Sistemi Intelligenti*. [https://doi.org/10.1422/97367](https://doi.org/10.1422/97367) - [Preprint](https://www.researchgate.net/publication/341297994_Reclutamento_accademico_come_tutelare_il_pluralismo_epistemico_Un_modello_di_simulazione_ad_agenti_PREPRINT)
