@@ -13,7 +13,7 @@
 	<!-- <link rel="icon" href="/assets/images/favicon.png" /> -->
 	<!-- <link rel="apple-touch-icon" href="/assets/images/favicon.png"> -->
 
-	<link rel="canonical" href="https://carlodebernardi.github.io/">
+	<link rel="canonical" href="https://carlodebernardi.github.io/writings/peer-review-as-measurement.html">
 	<!-- <link rel="alternate" type="application/rss+xml" title="Simple.css" href="https://simplecss.org/feed.xml"> -->
 	<!-- <link rel="sitemap" type="application/xml" title="Sitemap" href="https://simplecss.org/sitemap.xml" /> -->
 </head>
@@ -36,33 +36,53 @@
 		<article>
 			<header>
 				<h2>Peer review as a measurement tool</h2>
-				<time datetime="2025-07-04">04/07/2025</time>
+				<time datetime="2025-07-05">05/07/2025</time>
 			</header>
 
-			<p>I’m very interested in the inner dynamics of academia. I come from a philosophy of science background, but I quickly realized that the social and institutional factors at play are just too relevant to ignore<sup><a id="afn1" href="#fn1" title="Of course, that’s all me being clever and absolutely not my reading of Kuhn, Feyerabend or other scattered things by various sociologists of science.">[1]</a></sup>.</p>
-
-			<p>That is why I was immediately curious when I saw this recent article by <a href="https://doi.org/10.1086/719117">Arvan, M., Bright, L. K., &amp; Heesen, R. (2025)</a> on crowdsourced peer-review being published.  The authors put forward a version of the Condorcet Jury Theorem and essentially use that to argue in favour of an open online platform in which people could provide <strong>quantitative</strong> feedback on preprints. These numbers could in turn be used to provide an estimate of the quality of a research piece.</p>
+			<p>The inner dynamics of academia always obsessed me. That is why I was immediately curious when I saw this recent article by <a href="https://doi.org/10.1086/719117">Arvan, M., Bright, L. K., &amp; Heesen, R. (2025)</a> on crowdsourced peer-review being published.  The authors put forward a version of the Condorcet Jury Theorem and essentially use that to argue in favour of an open online platform in which people could provide <strong>quantitative</strong> feedback on preprints. These numbers could in turn be used to provide an estimate of the quality of a research piece.</p>
 			
-			<aside>Research quality, yeah, whatever that means. The authors argue in favour of an <strong>intersubjective</strong> notion of quality, and I very much agree it is probably our best shot at trying to define something like it. No point in chasing the Holy Grail when what we really need is some reasonable and actionable insight.</aside>
-
 			<p>This system – trivializing the argument for the sake of brevity – would allow us to:</p>
 
 			<ul>
-				<li>have more than the classical two/three reviews for manuscripts that gather more attention from the public (and more feedback, i.e. data points, are better, right?);</li>
+				<li>have more than the classical two/three reviews for thoe manuscripts that gather more attention from the public (and more feedback, i.e. data points, are better, right?);</li>
 				<li>reduce the duplication of review work induced by the combination of secret reviews with the practice of switching journal after a rejection.</li>
 			</ul>
+			
+			<p>This post is just a way to collect the scattered and random thoughts this reading prompted.</p>
+			
+			<h4>Research quality?</h4>
+			
+			<p>First, we are talking research quality, yeah, whatever that means. The authors argue in favour of an <strong>intersubjective</strong> notion of quality<sup><a id="afn1" href="#fn1" title="I.e. we take as good whatever people agree upon being good.">[1]</a></sup>, and I very much agree it is probably our best shot at trying to define something like it. No point in chasing the Holy Grail when what we really need is some reasonable and actionable insight.</p>
+			
+			<h4>Doesn't this already exist?</h4>
 
-			<p>Now, in practice there are already platforms out there allowing a public debate of articles and preprints; think of <a href="https://www.alphaxiv.org/">alphaXiv</a> or <a href="https://pubpeer.com/">PubPeer</a>. The issues are primarily of disciplinary habit to use those and especially of institutional incentives not being aligned with a reasonable way to do research in general. And since these are the real problems, I’m not going to discuss those here. I have no general solution in mind, and we are probably doomed anyway.</p>
+			<p>Yes, there are already platforms out there allowing a public debate of articles and preprints; think of <a href="https://www.alphaxiv.org/">alphaXiv</a> or <a href="https://pubpeer.com/">PubPeer</a>, but I'm sure there are many others. A completely different topic is that people do not have an habit to interact via these tools. Partially because of a lack of institutional incentives towards anything different from churning out papers. But then again, institutional incentives are not aligned with a reasonable way to do research in general. And since these are the real problems, I’m not going to discuss those here. I have no general solution in mind, and we are probably doomed anyway.</p>
 
-			<p>The other relevant difference is that these platforms provide a venue to discuss research but do not explicitly attempt a quantification of its quality. Another disclaimer is, yes, there is potential for abuse in the form of review bombing, trolling and the like. The authors acknowledge that, there are ways to mitigate the issue, and I think it’s not the most exciting part of the debate.</p>
+			<p>The main difference is that these platforms provide a venue to discuss research but do not explicitly attempt a <em>quantification</em> of its quality. I'm not 100% sure this is actually feasible in a sensible way, but still, we are already doing it in a not so-sensible way with the current system, and I think the attempt to do better is worth the effort.</p>
+			
+			<h4>Implementation details</h4>
+			
+			<p>Of course with a similar platform there is potential for abuse in the form of review bombing, trolling and the like. The authors acknowledge that, there are ways to mitigate the issue, and I think it’s not the most exciting part of the debate. What I think is more stimulating is trying to imagine the details of implementation for such a platform, and the challenges it would pose.</p>
+			
+			<p>For example, a prominent feature of the current peer review system is <strong>anonymity</strong> in its various forms. Naturally, in most cases this is merely formal, since many research communities are relatively small, and the guesswork required to identify the authors or reviewers for a manuscript is not a tough one.</p>
+			
+			<p>On such a platform hiding the identity of the authors would be simply pointless; the system is explicitly orbiting around preprints. This open the door to unfair advantages for promiment scholars that would just <a href="https://doi.org/10.1073/pnas.2205779119">benefit from their reputation</a>, but I'm frankly more concerned about the possibility of retaliation against (especially early career) scholars expressing criticism. Hiding the identity of reviewers though would definitely be possible. Imagine just a switch or a checkbox setting.</p>
+			
+			<p>Still, you would not be 100% completely anonymous; the system would link your profile to your review (otherwise peolpe could for example leave an unlimited number of reviews), but your name or identifier would not show up for other users to see. And, if you think about it, this is exactly how currently peer review works. The identity of reviewers and authors is available in whatever editorial management system is used by journals, and usually such information is in principle accessible by the editor and other people responsible for the handling of the journal.</p>
+			
+			<p>Another potentially interesting turn of this proposal is the possibility of <strong>interaction with the system currently in place</strong>. It would be pretty easy to implement a functionality allowing journal editors and such to invite reviewers, which would then provide public feedback (possibly anonymously, but still disclosing their identity to the person inviting them). From the many journals that already in some form pubish their review reports this would be not dramatically different, but the benefit would be having the feedback systematically collected in a centralized public repository.</p>
 
-			<p>Rather, I started to imagine a little prototype, with implementation details like an option for anonymous reviews, structured feedback and the like... Then I realized that jumping directly to code was <em>maybe</em> running <em>a little</em> too fast, and being a sucker for statistics<sup><a id="afn2" href="#fn2" title="Thanks Richard McElreath, your Statistical Rethinking book ruined my life, now I need more of it forever pretty please keep going.">[2]</a></sup> I started to think of this quantification problem in terms of measurement.</p>
+			<h4>A model...?</h4>
+			
+			<p>I'm also a sucker for statistics, especially the Bayesian flavoured one<sup><a id="afn2" href="#fn2" title="Thanks Richard McElreath, your Statistical Rethinking book ruined my life, now I need more of it forever pretty please keep going.">[2]</a></sup>. So I started to think of this quantification problem in terms of measurement.</p>
+			
+			<p>First of all, I do not think we can ask reviewers to provide an explicitly quantitative judgement. People are notoriously bad at that. What we can get is at best some kind of <strong>ordinal information</strong> (basically a Likert scale).</p>
+			
+			<p>The authors also argue in favour of a <strong>one-dimensional measure of quality</strong>. I have mixed feelings in this respect. On the one hand, research clearly has many dimensions. A paper could have great theorizing and crappy methods or viceversa. Collecting information about multiple dimensions does not stop us computing and/or reporting a single measure if we really want to provide a simplified information to the public. The biggest limitation I see with this is that the relevant dimensions are not unique nor uniformly applicable to all research efforts. A “data collection” score is not applicable to a theoretical contribution. But even a rigid definition of categories that could be optionally applied when relevant smell like a further step into research bureaucratization and standardization, which is not ideal.</p>
 
-			<p>Imagine we have multiple quantitative judgements of a piece of work. How could we sensibly try and aggregate those? A simple mean would not be incredibly satisfactory. I mean, multiple people giving their opinions do not really work anywhere close to multiple scales weighting the same bowl of flour, do they?</p>
+			<p>Anyway, imagine we have multiple quantitative judgements of a piece of work provided by different people. How could we sensibly try and aggregate them? A simple mean would not be incredibly satisfactory. I mean, multiple people giving their opinions do not really work anywhere close to multiple scales weighting the same bowl of flour, do they?</p>
 
-			<p>There is error in this kind of measurement, but it is not random by any means, it is not going to go away simply by having more data! People might have different standards and tend to systematically give higher or lower scores. They could be biased (positively or negatively) towards topics, methods, theoretical orientations or even have beef with the authors of a certain work<sup><a id="afn3" href="#fn3" title="Good Lord, please, not scientists behaving like the ordinary people they are!">[3]</a></sup>.</p>
-
-			<h3>A model...?</h3>
+			<p>There is a lot of <em>structure</em> in this kind of measurement, it is not random by any means, it is not going to go away simply by having more data! People might have different standards and tend to systematically give higher or lower scores. They could be biased (positively or negatively) towards topics, methods, theoretical orientations or even have beef with the authors of a certain work<sup><a id="afn3" href="#fn3" title="Good Lord, please, not scientists behaving like the ordinary people they are!">[3]</a></sup>.</p>
 
 			<p>I feel like a reasonable starting point to model this kind of data would be something like:</p>
 
@@ -77,31 +97,34 @@
 				<li>And probably some other things floating around</li>
 			</ul>
 
-			<p>Now, I have no idea how to measure reliably the “bias” of the reviewer regarding a specific paper. Or rather, I have many ideas but none that is at least somewhat convincing.
-			I already tried, for a little project, to use the distance between a manuscript abstract and the abstracts of publications by reviewers, computed with a <strong>text-embedding model</strong>. The thing is, I’m not sure this would be reliable, it makes tons of assumptions, it requires a ton of (notoriously not great in quality) bibliometric data, and the results might heavily depend on the specific model you use.</p>
+			<p>Now, I have no idea how to measure reliably the “bias” of the reviewer regarding a specific paper. Or rather, I have many ideas but none that is at least somewhat convincing.</p>
+			
+			<p>I already tried, for a little project, to use the distance between a manuscript abstract and the abstracts of publications by reviewers, computed with a <strong>text-embedding model</strong>. The thing is, I’m not sure this would be reliable, it makes tons of assumptions, it requires a ton of (notoriously not great in quality) bibliometric data, and the results might heavily depend on the specific model you use.</p>
 
-			<p>Another alternative would be to use the <strong>agreement with the other reviewers</strong> on <b>other</b> manuscripts. This could allow to “weight” relatively less redundant opinions. The end result would be something like “we expect higher quality when people that usually disagree give uniformly high scores”. This sounds similar to the algorithm behind Twitter/X community notes<sup><a id="afn4" href="#fn4" title="More details here, here and in the original paper.">[4]</a></sup>, but without (?) the one-dimensional assumption of the opinion space. The obvious limit however would be the extreme sparsity of the matrix, since not everyone rates everything (not even close).</p>
+			<p>Another alternative would be to use the <strong>agreement with the other reviewers</strong> on <b>other</b> manuscripts. This could allow to “weight” relatively less redundant opinions. The end result would be something like “we expect higher quality when people that usually disagree give uniformly high scores”. This sounds similar to the algorithm behind Twitter/X community notes<sup><a id="afn4" href="#fn4" title="More details here and in the original paper.">[4]</a></sup>, but without (?) the one-dimensional assumption of the opinion space. The obvious limit however would be the extreme sparsity of the matrix, since not everyone rates everything (not even close).</p>
+			
+			<p>Another one could be something along the lines of an <a href="https://en.wikipedia.org/wiki/Item_response_theory">IRT model</a>. Where papers are the analog of students taking an exam, and reviewers are the “questions”; some of them are more difficult, some are able to better discriminate between good and bad outcomes.</p>
 
-			<p>Except that... Now that we are reasoning in terms of a statistical model maybe we need a little bit more of a theoretical understanding of the phenomenon and of the property we are trying to measure? After all, <a href="https://doi.org/10.1177/25152459221095823">Statistical Control Requires Causal Justification</a>! Here instead we are merely saying that the “quality” of a manuscript is whatever is not explained away by the marginal contributions of a bunch of reviewer traits...</p>
+			<p>Except that... Now that we are reasoning in terms of a statistical model maybe we need to take a step back, and get a little bit more of a theoretical understanding of the phenomenon and of the property we are trying to measure? After all, <a href="https://doi.org/10.1177/25152459221095823">Statistical Control Requires Causal Justification</a>! Here instead we are merely saying that the “quality” of a manuscript is whatever is not explained away by the marginal contributions of a bunch of reviewer traits... But, just to make an example, the topic of a paper could easily causally impact its quality as well as the reviewer bias, thus being a confounder. And we are not even considering the self-selection of reviewers into giving feedback to the papers they are interested in! Again, I have more doubts than answers, but I think there is potential in trying to tackle difficult issues.</p>
 
-			<h3>Anyway, some more thoughts</h3>
+			<h4>Anyway, some more thoughts</h4>
 
 			<p>This piece is closer to a stream of thought than a fully formed reflection on the topic. Thinking about this, however, brought me to reconsider how I think of peer review in its current form.</p>
 
 			<p>If we frame it as a measurement issue, we are essentially engaging in a sort of collective suspension of disbelief. None of the empirical researchers I know would ever be confident in drawing conclusions with two to three data points. You can be a p-value lover, a confidence interval enjoyer or having reached your inner peace with posterior distributions. But a couple of observations are probably not enough to convincingly conclude anything about a complex question like “is this paper worth publishing/reading/citing/whatever”.</p>
 
-			<p>This is to say, <mark>we have a way higher standard of evidence <b>in</b> our work than we have in <b>assessing</b> it</mark>. We might have no better alternative, there might be other good reasons for this, but I think this is at least worth noting it.</p>
+			<p>This is to say, <mark>we have a way higher standard of evidence <b>in</b> our work than we have in <b>assessing</b> it</mark>. We might have no better alternative, there might be other good reasons for this, but I think this is at least worth noting.</p>
 
-			<p class="notice">For the records: I remember vaguely a Tweet by <a href="https://x.com/rlmcelreath">@rlmcelreath</a> discussing a many analyst study and touching the same points probably better than I’m doing here, but the search function is not helping me.</p>
+			<p class="notice">For the records: I remember vaguely a Tweet (or was it on Bluesky?) by <a href="https://x.com/rlmcelreath">@rlmcelreath</a> discussing a study on peer review and touching the same point probably better than I’m doing here: i.e. with just a couple of observations you have no statistical power to reliably draw conclusions. The search function is not helping me but if I find it I will link to it later on.</p>
 
 			<footer>
 				<hr>
 				<b>Footnotes</b>
 				<ul>
-					<li><a id="fn1" href="#afn1">[1]</a> Of course, that’s all me being clever and absolutely not my reading of Kuhn, Feyerabend or other scattered things by various sociologists of science.</li>
+					<li><a id="fn1" href="#afn1">[1]</a> I.e. we take as good whatever people agree upon being good.</li>
 					<li><a id="fn2" href="#afn2">[2]</a> Thanks Richard McElreath, your Statistical Rethinking book ruined my life, now I need more of it forever pretty please keep going.</li>
 					<li><a id="fn3" href="#afn3">[3]</a> Good Lord, please, not scientists behaving like the ordinary people they are!</li>
-					<li><a id="fn4" href="#afn4">[4]</a> More details here, here and in the original paper.</li>
+					<li><a id="fn4" href="#afn4">[4]</a> More details <a href="https://vitalik.eth.limo/general/2023/08/16/communitynotes.html">here</a> and in the <a href="https://github.com/twitter/communitynotes/blob/main/birdwatch_paper_2022_10_27.pdf">original paper</a>.</li>
 				</ul>
 			</footer>
 			
