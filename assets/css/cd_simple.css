@@ -730,6 +730,11 @@ sub {
   margin: 2rem 0;
 }
 
+.math.display{
+	display: block;
+	text-align: center;
+}
+
 /* Print */
 @media print {
   @page {
